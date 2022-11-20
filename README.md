@@ -1,6 +1,6 @@
 # BeaucheronAlan_14_201122# 
 
-Projet 14 - ArgentBankHRNet
+Projet 14 - HRNet
 
 <!-- ABOUT THE PROJECT -->
 
