@@ -1,9 +1,8 @@
 import React from 'react'
-import "./header.css"
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header text-center">
       <h1 className='header__h1'>HRnet</h1>
     </header>
   )

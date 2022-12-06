@@ -1,9 +1,8 @@
 import React from 'react'
-import "./footer.css"
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer text-center">
       <p className="footer__text">Copyright 2022 RHnet</p>
     </footer>
   )
