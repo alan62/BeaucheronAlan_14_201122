@@ -16,10 +16,11 @@
  function HandleChange(e, setEmployeeFromData, employeeFromData) {
     let { value, name } = e.currentTarget
   
+    /* Si le nom est égale à dateOfBirth ou startDate alors la valeur devient une date au format jours mois année */
     if (name === 'dateOfBirth' || name === 'startDate') {
       const date = new Date(value)
       const day = date.getDate()
-      const month = date.getMonth() + 1
+      const month = date.getMonth() + 1 /* +1 car l'index des mois commence par 0 ( donc de 0 ( janvier ) à 11 (décembre ) ) */
       const year = date.getFullYear()
       const newDate = `${day}/${month}/${year}`
       value = newDate

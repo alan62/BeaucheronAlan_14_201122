@@ -6,6 +6,8 @@
  * @param {String} employeeFromData.state - the name of the input field
  * @param {String} employeeFromData.department - the name of the input field
  */
+
+
  function HandleChangeOption(e, setEmployeeFromData, employeeFromData) {
     const idChoice = e.currentTarget.selectedIndex
   
@@ -14,6 +16,7 @@
       value: e.currentTarget.options[idChoice].text,
     }
     const { value, name } = idText
+    console.log(idText);
   
     setEmployeeFromData({
       ...employeeFromData,

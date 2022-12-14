@@ -6,6 +6,8 @@
  * @param {string} title - the title of the option
  * @returns {JSX} - the select options
  */
+
+/* Création des options en utilisant la method .map afin de créer un nouveau tableau */
  function SelectOptions({ options, title }) {
     const elements = options.map((option) => (
       <option key={option.abbreviation} value={option.abbreviation} name={title}>

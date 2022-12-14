@@ -15,6 +15,8 @@
  * @param {*} setEmployees - function to set the state of the input fields
  */
  function SaveEmployee(e, employeeFromData, employees, setEmployees) {
+  
+  /* Push les infos saisies dans les inputs pour créer un nouvel employée et reset le formulaire */ 
     e.preventDefault()
     const newEmployees = [...employees]
     newEmployees.push(employeeFromData)

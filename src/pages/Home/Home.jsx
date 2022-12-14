@@ -16,7 +16,6 @@ function home() {
           role="button"
           to="/EmployeeList"
         >
-          {' '}
           View Current Employees
         </Link>
       </div>

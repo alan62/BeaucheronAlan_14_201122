@@ -17,7 +17,6 @@ function EmployeeList() {
       <div className="text-center">
         <Link className="" to="/">
           <button type="button" className="btn btn-primary">
-            {' '}
             Home
           </button>
         </Link>
