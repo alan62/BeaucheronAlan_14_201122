@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Modal, useModal } from 'alannpmreactmodal/dist/index' /* APPEL DE MON PLUGIN MODAL */
+import { Modal, useModal } from 'alanbnpmreactmodal' /* APPEL DE MON PLUGIN MODAL */
 import Form from '../../components/Form/Form'
 
 function home() {

@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "alannpmreactmodal": "^0.1.2",
+    "alanbnpmreactmodal": "^0.1.2",
     "bootstrap": "^5.2.3",
     "euka-datatables": "^1.3.4",
     "react": "^18.2.0",

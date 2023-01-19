@@ -58,7 +58,7 @@ export default function DataTable() {
 
   let options = {
     responsive: 'collapse',
-    recordsPerPageOptions: { 10: 10, 25: 25, 50: 50, 100: 100 },
+    recordsPerPageOptions: {1: 1, 10: 10, 25: 25, 50: 50, 100: 100 },
     selectRows: true,
     onRowsSelect: (selectedDataIndices, selectedData, parentRecord) => {
       'selectedData'
